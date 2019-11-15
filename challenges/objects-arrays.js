@@ -164,6 +164,15 @@ const populationTotal = zooAnimals.reduce(function(accumulator, current){
 }, 0);
 console.log(populationTotal);
 
+// Second Way if populationTotal must be a variable set to 0 and updated by the result of .reduce()
+
+
+// var populationTotal = 0;
+// zooAnimals.reduce(function(accumulator, current){
+//   return populationTotal = current.population + accumulator;
+// }, 0);
+// console.log(populationTotal);
+
 
 /*
 
